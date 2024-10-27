@@ -1,4 +1,5 @@
-#Funcion POES
+# Funcion POES
+
 
 def poes(area, h, poro, swi, boi):
     """
@@ -16,6 +17,6 @@ def poes(area, h, poro, swi, boi):
     poes: Petroleum original in situ (bbl)
 
     """
-    Poes = (7758*area*h*poro*(1-swi))/boi
+    Poes = (7758 * area * h * poro * (1 - swi)) / boi
 
     return Poes
